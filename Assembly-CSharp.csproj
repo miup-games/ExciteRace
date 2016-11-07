@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{224514C4-7789-7369-CCDE-A08A0ABED6E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity5.4.2f2/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity5.4.2f2/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\SD_Project\Scripts\MecanimButton.cs" />
+     <Compile Include="Assets\SD_Project\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\SD_Project\Scripts\controller.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\SD_Project\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\BindInfo\BindInfo.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\BindInfo\GameObjectCreationParameters.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\ArgumentsBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteBinderGeneric.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteBinderNonGeneric.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteIdBinderGeneric.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteIdBinderNonGeneric.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\ConditionBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Conventions\ConventionAssemblySelectionBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Conventions\ConventionBindInfo.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Conventions\ConventionFilterTypesBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Conventions\ConventionSelectTypesBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\CopyIntoSubContainersBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\DynamicFactoryBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder0.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder1.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder2.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder3.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder4.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\FactoryFromBinder5.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder0.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder1.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder2.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder3.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder4.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinder5.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinderBase.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinder\SubContainerBinder\FactorySubContainerBinderWithParams.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryFromBinderBase.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder0.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder1.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder2.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder3.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder4.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\Factory\FactoryToChoiceBinder\FactoryToChoiceBinder5.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\FromBinders\FromBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\FromBinders\FromBinderGeneric.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\FromBinders\FromBinderNonGeneric.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\GameObject\GameObjectGroupNameBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\GameObject\GameObjectGroupNameScopeArgBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\GameObject\GameObjectGroupNameScopeBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\GameObject\GameObjectNameGroupNameBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\GameObject\GameObjectNameGroupNameScopeArgBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\GameObject\GameObjectNameGroupNameScopeBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\IdScopeBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\NonLazyBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\ScopeArgBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\ScopeBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Binders\SubContainerBinder.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\BindingUtil.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\BindFinalizerWrapper.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\IBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\PrefabBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\PrefabResourceBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\ProviderBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\ScopableBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\SingleProviderBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\SubContainerInstallerBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\SubContainerMethodBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\SubContainerPrefabBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Binding\Finalizers\SubContainerPrefabResourceBindingFinalizer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Factories\DynamicFactory.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Factories\Factory.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Factories\IFactory.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Factories\KeyedFactory.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Factories\PrefabFactory.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Injection\InjectContext.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Injection\InjectUtil.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Injection\InjectableInfo.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\Contexts\Context.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\Contexts\ContextUtil.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\Contexts\GameObjectContext.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\Contexts\ProjectContext.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\Contexts\SceneContext.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\Contexts\SceneDecoratorContext.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\Contexts\StaticContext.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\IInstaller.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\Installer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\InstallerBase.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\MonoInstaller.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\MonoInstallerBase.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\ScriptableObjectInstaller.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\ScriptableObjectInstallerBase.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Install\ZenjectBinding.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\Assert.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\Func.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\LinqExtensions.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\Log.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\MiscExtensions.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\PreserveAttribute.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\ProfileBlock.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\ReflectionUtil.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\Tuple.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Internal\TypeExtensions.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Main\BindingId.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Main\DiContainer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Main\IInstantiator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Main\LazyInstanceInjector.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\CachedProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToCurrentGameObjectComponentProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToExistingGameObjectComponentProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToGameObjectComponentProviderBase.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\ComponentProviders\AddToGameObjectComponentProviders\AddToNewGameObjectComponentProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\ComponentProviders\GetFromPrefabComponentProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\FactoryProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\GameObjectProviders\EmptyGameObjectProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\GameObjectProviders\PrefabGameObjectProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\GetterProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\IProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\IProviderExtensions.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\InstanceProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\MethodProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\MethodProviderSimple.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\MethodProviderUntyped.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\MethodProviderWithContainer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\PrefabCreators\IPrefabInstantiator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\PrefabCreators\PrefabInstantiator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\PrefabCreators\PrefabInstantiatorCached.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\PrefabProviders\IPrefabProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\PrefabProviders\PrefabProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\PrefabProviders\PrefabProviderResource.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\ProviderUtil.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\ResolveProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\ResourceProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\Prefab\PrefabResourceSingletonProviderCreator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\Prefab\PrefabSingletonProviderCreator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SingletonId.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SingletonImplIds.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SingletonMarkRegistry.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SingletonProviderCreator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SingletonTypes.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\Standard\StandardSingletonDeclaration.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\Standard\StandardSingletonProviderCreator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SubContainer\SubContainerSingletonProviderCreatorByInstaller.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SubContainer\SubContainerSingletonProviderCreatorByMethod.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SubContainer\SubContainerSingletonProviderCreatorByPrefab.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\Singleton\SubContainer\SubContainerSingletonProviderCreatorByPrefabResource.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\SubContainerCreators\ISubContainerCreator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByInstaller.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByMethod.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByPrefab.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorByPrefabWithParams.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\SubContainerCreators\SubContainerCreatorCached.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\SubContainerDependencyProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\TransientProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Providers\UntypedFactoryProvider.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\DisposableManager.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\InitializableManager.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\Kernels\DefaultGameObjectKernel.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\Kernels\Kernel.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\Kernels\MonoKernel.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\Kernels\ProjectKernel.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\Kernels\SceneKernel.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\TaskUpdater.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\TickableManager.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Runtime\UnityEventManager.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Usage\IInitializable.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Usage\ITickable.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Usage\InjectAttribute.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Usage\InjectAttributeBase.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Usage\InjectLocalAttribute.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Usage\InjectOptionalAttribute.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Usage\InjectSources.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Usage\ZenjectAllowDuringValidationAttribute.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\ActionInstaller.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\ExecutionOrderExtensions.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\ExecutionOrderInstaller.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\TypeAnalyzer.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\UnityUtil.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\ValidationUtil.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\ZenUtilInternal.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\ZenjectException.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\ZenjectSceneLoader.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Util\ZenjectTypeInfo.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Validation\IValidatable.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\Zenject\Source\Validation\ValidationMarker.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\CollisionDetection\CollisionDetector.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Input\AcelerateButton.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Input\ChangeTrackButton.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Input\InputController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Players\BaseController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Players\BotController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Players\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Players\SimulationController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Scenes\RaceSceneController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\ChatController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\ChatView.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\CountDownController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\PositionController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\PositionView.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\SpeedUIController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\TimeController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\TimeView.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\UI\UIController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Utils\Billboard.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Utils\FollowGameObject.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Utils\TrackConstants.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Utils\TrackItem.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Utils\TrackItemType.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Utils\TrackItemsGroup.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Vehicle\MotorbikeController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Vehicle\TireToWheel.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Vehicle\VehicleController.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Vehicle\VehicleDriver.cs" />
+     <Compile Include="Assets\Scripts\Miup\App\Vehicle\VehicleMovementController.cs" />
+     <Compile Include="Assets\Scripts\Miup\Domain\RaceRecorder\Models\RaceEventModel.cs" />
+     <Compile Include="Assets\Scripts\Miup\Domain\RaceRecorder\Models\RaceEventsGroupModel.cs" />
+     <Compile Include="Assets\Scripts\Miup\Domain\RaceRecorder\Repos\IRaceRecorderRepo.cs" />
+     <Compile Include="Assets\Scripts\Miup\Domain\RaceRecorder\Repos\RaceRecorderRepo.cs" />
+     <Compile Include="Assets\Scripts\Miup\Domain\RaceRecorder\Services\IRaceRecorderService.cs" />
+     <Compile Include="Assets\Scripts\Miup\Domain\RaceRecorder\Services\RaceRecorderService.cs" />
+     <Compile Include="Assets\Scripts\Miup\Installers\RaceRecorder\RaceRecorderInstaller.cs" />
+     <Compile Include="Assets\Scripts\Miup\MapGenerator\App\TrackGenerator.cs" />
+     <Compile Include="Assets\Scripts\Miup\Simulation\RaceSimulationJsonReader.cs" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\readme.txt" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Scripts\Infrastructure\Zenject\LICENSE.txt" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\Scripts\Infrastructure\Zenject\Version.txt" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\SD_Project\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\SD_Project\README.txt" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\SD_Project\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5.4.2f2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5.4.2f2/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>/Users/mauricio/Documents/Miup-Games/5.4.x/ExciteRace/Assets/Scripts/Infrastructure/LitJson/LitJson.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
